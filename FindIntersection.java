@@ -12,7 +12,7 @@ int teamA[]= {3,2,11,4,6,7};
 			
 				
 				if (teamA[i]==teamB[j]) {
-					System.out.println("This is the intersection : " +teamA[i]);
+					System.out.println("This is the intersection : " +teamB[j]);
 				}
 			}
 			
