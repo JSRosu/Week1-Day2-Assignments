@@ -7,10 +7,9 @@ public class FindSecondLargestElement {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int testNum[]= {305,783,5623,298,902,24,252};
-		Arrays.sort(testNum);
+		int data[]= {3,2,11,4,6,7};	
+		Arrays.sort(data);
+		 System.out.println("This is the second largest number :" + data [data.length-2]);
+			}
 		
-		System.out.println("The second largest Element is :" +testNum [testNum.length-2]);
-	}
-
-}
+		}
